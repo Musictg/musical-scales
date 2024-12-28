@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Skill</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <div class="container my-2 py-2">
+        <h1>Music Skill</h1>
+        <div role="alert" class="alert alert-info">
+            <p>هذا البرنامج مخصص للموسقيين حيث يساعدهم علي استخراج نغمات السلالم الموسيقيية بناء علي نغمة المفتاح
+                الاساسي.</p>
+        </div>
+        <div role="alert" class="alert alert-success">
+            <p>الحقل الاول هو لختيار السلم المراد استخراج نغماته .</p>
+            <p>الحقل الثاني مخصص لنغمت السلم الاساسي .</p>
+        </div>
+        <div role="alert" class="alert alert-warning">
+            <p>ملحوظه اضافية اذا وجد هذا الرمز <strong>^ </strong>فهو يعني الن النغمة مرفوعه بمقدار ربع درجه.</p>
+            <p>ملحوظه اضافية اذا وجد هذا الرمز <strong>~ </strong>فهو يعني الن النغمة منخفظه بمقدار ربع درجه.</p>
+        </div>
+        <div class="row text-center align-items-center">
+            <div class="col-12 col-md-5">
+                <select name="Skill" id="Skill" class="form-control w-75 mt-2 mt-2 mt-2 mt-2 mt-2 mt-2 mt-2 mt-2 mt-2 mt-2 mt-2 mt-2 mt-2 mt-2 mt-2 m-auto text-center">
+                    <option value="Major" id="Major">Major / عجم</option>
+                    <option value="Minor" id="Minor">Minor / نهوند</option>
+                </select>
+            </div>
+            <div class="col-12 col-md-5">
+                <select name="Key" id="Key" class="form-control w-75 mt-2 mt-2 mt-2 mt-2 mt-2 mt-2 mt-2 mt-2 m-auto text-center">
+                    <option value="C" id="C">C / DO / دو</option>
+                    <option value="C#" id="C#">C# / DO# / دو#</option>
+                    <option value="D" id="D">D / RA / ري</option>
+                    <option value="D#" id="D#">D# / RA# / ري#</option>
+                    <option value="E" id="E">E / MI / مي</option>
+                    <option value="F" id="F">F / FA / فا</option>
+                    <option value="F#" id="F#">F# / FA# / فا#</option>
+                    <option value="G" id="G">G / SOL / صول</option>
+                    <option value="G#" id="G#">G# / SOL# / صول#</option>
+                    <option value="A" id="A">A / LA / لا</option>
+                    <option value="A#" id="A#">A# / LA# / لا#</option>
+                    <option value="B" id="B">B / SE / سي</option>
+                </select>
+            </div>
+            <div class="col-12 col-md-2 mt-2">
+                <button id="btn" class="btn btn-outline-primary">Go</button>
+            </div>
+        </div>
+        <div role="alert" id="alert" class="alert alert-primary mt-3 text-center">
+            
+        </div>
+        <footer class="footer bg-black text-bg-dark mt-5 text-center">
+            <p>تم انشاء وتصميم هذا البرنامج من قبل المطور توني اسامة </p>
+        </footer>
+    </div>
+    <script src="js/all.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="main2.js"></script>
+</body>
+
+</html>
